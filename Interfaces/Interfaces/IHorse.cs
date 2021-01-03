@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    class Program
+    interface IHorse : IAnimal
     {
-        static void Main(string[] args)
-        {
+        double carryingCapacity { get; set; }
 
-        }
+
+        void sitOnHorse();
+        void rideHorse();
     }
+    
 }

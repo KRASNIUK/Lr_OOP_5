@@ -1,0 +1,7 @@
+D:\#University\2 курс\ООП (обьектно ориентированое програмирование)\Лр\Отчеты и программы\Lr_OOP_5\Interfaces\Interfaces\obj\Debug\Interfaces.csprojAssemblyReference.cache
+D:\#University\2 курс\ООП (обьектно ориентированое програмирование)\Лр\Отчеты и программы\Lr_OOP_5\Interfaces\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+D:\#University\2 курс\ООП (обьектно ориентированое програмирование)\Лр\Отчеты и программы\Lr_OOP_5\Interfaces\Interfaces\bin\Debug\Interfaces.exe.config
+D:\#University\2 курс\ООП (обьектно ориентированое програмирование)\Лр\Отчеты и программы\Lr_OOP_5\Interfaces\Interfaces\bin\Debug\Interfaces.exe
+D:\#University\2 курс\ООП (обьектно ориентированое програмирование)\Лр\Отчеты и программы\Lr_OOP_5\Interfaces\Interfaces\bin\Debug\Interfaces.pdb
+D:\#University\2 курс\ООП (обьектно ориентированое програмирование)\Лр\Отчеты и программы\Lr_OOP_5\Interfaces\Interfaces\obj\Debug\Interfaces.exe
+D:\#University\2 курс\ООП (обьектно ориентированое програмирование)\Лр\Отчеты и программы\Lr_OOP_5\Interfaces\Interfaces\obj\Debug\Interfaces.pdb

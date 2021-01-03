@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    class Program
+    interface IBird : IAnimal
     {
-        static void Main(string[] args)
-        {
+        bool doesFly { get; set; }
+        int maxEggsWeek { get; set; }
 
-        }
+        void takeInArms();
+
     }
 }

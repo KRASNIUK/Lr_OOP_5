@@ -14,7 +14,11 @@ namespace Interfaces
 
         public void takeInArms()
         {
-            Console.WriteLine($"You don't take a {this.GetType().Name} in arms");
+            if (alive)
+                Console.WriteLine($"You don't take a {this.GetType().Name} in arms");
+
+            else
+                throw new Exception("alive = false");
         }
 
         public override string getInformation(PrintHandler print)
@@ -32,18 +36,31 @@ namespace Interfaces
         }
         public override BootyArgs killAnimal()
         {
+
+            base.killAnimal();
             BootyArgs bootyArgs = new BootyArgs() { feathers = 500, hide = 10, meat = 90 };
 
             return bootyArgs;
+
+
         }
 
         public void sitOnHorse()
         {
-            Console.WriteLine($"You sit on {this.GetType().Name}");
+            if (alive)
+                Console.WriteLine($"You sit on {this.GetType().Name}");
+
+            else
+                throw new Exception("alive = false");
         }
         public void rideHorse()
         {
-            Console.WriteLine($"You ride {this.GetType().Name}");
+            if (alive)
+                Console.WriteLine($"You ride {this.GetType().Name}");
+            
+            else
+                throw new Exception("alive = false");
+
         }
     }
 }

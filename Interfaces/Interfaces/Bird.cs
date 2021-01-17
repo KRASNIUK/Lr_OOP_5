@@ -25,14 +25,20 @@ namespace Interfaces
         }
         public override BootyArgs killAnimal()
         {
-            BootyArgs bootyArgs = new BootyArgs() { feathers = 100, hide = 0, meat = 4 };
+            base.killAnimal();
+            BootyArgs bootyArgs = new BootyArgs() { feathers = weight * 0.2 * 95, hide = 0, meat = weight * 0.8};
 
+            
             return bootyArgs;
         }
 
         public void takeInArms()
         {
-            Console.WriteLine("You take a bird in arms");
+            if(alive)
+                Console.WriteLine("You take a bird in arms");
+
+            else
+                throw new Exception("alive = false");
         }
     }
 }

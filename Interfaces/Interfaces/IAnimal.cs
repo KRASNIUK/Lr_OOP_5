@@ -22,8 +22,21 @@ namespace Interfaces
 
     public struct BootyArgs
     {
-        public int feathers; // g
-        public int hide; // kg
-        public int meat; // kg
+        public double feathers; // g
+        public double hide;// kg
+        public double meat;// kg
+
+        public void getInformation(PrintHandler print)
+        {
+            string Information = "";
+
+            Information +=
+                $"Struct: {this.GetType().Name}\n" +
+                $"    Feathers: {feathers}\n" +
+                $"    Hide: {hide}\n" +
+                $"    Meat: {meat}\n";
+
+            print?.Invoke(Information);
+        }
     }
 }
